@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046684851341",
+    "project_id": "mobilalkfejlbiliard",
+    "storage_bucket": "mobilalkfejlbiliard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046684851341:android:830d47cf950cca993616c4",
+        "android_client_info": {
+          "package_name": "com.example.mobilalkfejl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsAH5KZkme2S0qJYIWGsNx58VEv10x5jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

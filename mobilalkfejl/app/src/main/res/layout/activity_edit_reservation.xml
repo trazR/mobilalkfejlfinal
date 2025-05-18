@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerVertical"
+        android:showDividers="middle"
+        android:dividerPadding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kezdés időpontja"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etStartTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pl. 2025-05-18 18:00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Időtartam (óra)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Pl. 2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asztalok száma"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etTableCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Pl. 5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefonszám"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="Pl. +36 30 123 4567" />
+
+        <Switch
+            android:id="@+id/switchWholePlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teljes hely lefoglalása" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mentés"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvReservationCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Összes foglalásod: ..."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktuális foglalások"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="22dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:contentDescription="Lista a foglalásokról" />
+
+    <TextView
+        android:id="@+id/tvPreviousReservations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Korábbi foglalások"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:padding="8dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

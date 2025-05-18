@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobilalkfejl</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="email">Email</string>
+    <string name="Jelszó">Jelszó</string>
+    <string name="signup">Regisztráció</string>
+    <string name="van_mar_fiokod_lepj_be">Van már fiókod? Lépj be!</string>
+    <string name="nincs_meg_fiokod_regisztralj_most">Nincs még fiókod? Regisztrálj most!</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+</resources>
