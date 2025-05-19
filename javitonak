@@ -1,0 +1,9 @@
+ezt a kettőt ne keresd a notificationt megpróbáltam, de nem működött viszont a próbálkozás meg benne maradt a kódban, a többi elvileg meg van ( ha valami baj lenne skyner9518@gmail.com)
+
+"2 különböző rendszerszolgáltatás (háttér szolgáltatás):
+- notification
+- alarm manager
+- job scheduler"
+
+"Legalább 2 olyan Android erőforrás használata,
+amihez kell android permission és értelmesen beágyazottak az alkalmazás funkcionalitásába"
